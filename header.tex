@@ -1,0 +1,44 @@
+\usepackage{latexsym, graphicx, epsfig, amsmath, amsfonts,amssymb}
+\usepackage{multirow}
+% \usepackage{algorithm}
+% \usepackage{algorithmicx}
+% \usepackage{algorithmic}
+% \floatname{algorithm}{Algorithm}
+\usepackage{threeparttable}
+\usepackage{amsthm}
+\usepackage{float}
+% \usepackage{epstopdf,mathtools,bbm}
+% \usepackage[left=1.25in,right=1.25in,top=1in]{geometry}
+
+\input{math_letter}
+
+\newcommand{\diff}{{\mathop{}\!\mathrm{d}}}
+\newcommand{\xx}{\mathbf{x}}
+\newcommand{\supp}{\mathop{\mathrm{supp}}}
+\newcommand{\pdiff}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\norm}[2]{\left\|#1\right\|_{#2}}
+\newcommand{\iprod}[2]{\left<#1, #2\right>}
+\newcommand{\eprod}[2]{\left[#1, #2\right]}
+\newcommand{\Hi}{H_i}
+\newcommand{\laplace}{\Delta}
+\newcommand{\grad}{\nabla}
+\newcommand{\inline}[1]{$#1$}
+\newcommand{\Div}{{\grad\cdot}}
+% \newtheorem{lemma}{Lemma}[section]
+% \newtheorem{theorem}{Theorem}[section]
+% \newtheorem{definition}{Definition}[section]
+% \newtheorem{corollary}{Corollary}[section]
+% \newtheorem{example}[theorem]{Example}
+% \newtheorem{assumption}[theorem]{Assumption}
+% \newtheorem{proposition}{Proposition}[section]
+% \newtheorem{remark}{Remark}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\newcommand{\Oi}{\Omega_i}
+\newcommand{\SPo}{Steklov-Poincar\'{e} operator }
+\newcommand{\SPos}{Steklov-Poincar\'{e} operators }
+\newcommand{\IoFx}{\mathbb{I}_{\Omega_F}(\xx)}
+\newcommand{\IoF}{\mathbb{I}_{\Omega_F}}
+\newcommand{\ao}[3]{a_{#1}(#2, #3)}
+\newcommand{\tr}{{\rm tr}}
